@@ -1,0 +1,21 @@
+.animate {
+  animation-name: up-down;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up-down {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    background-image: url(../c2-assets/offer.png);
+  }
+  75% {
+    opacity: 0.2;
+  }
+  100% {
+    background-image: url(../c2-assets/offer.png);
+  }
+}
