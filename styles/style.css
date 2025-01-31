@@ -7,13 +7,13 @@
 
 @keyframes up-down {
   0% {
-    opacity: 0;
+    opacity: 0.2;
   }
   50% {
     background-image: url(../c2-assets/offer.png);
   }
   75% {
-    opacity: 0.2;
+    opacity: 0.5;
   }
   100% {
     background-image: url(../c2-assets/offer.png);
